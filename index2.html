@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Esport shop</title>
+<link rel="stylesheet" href="style/style.css">    
+    <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Use an element to toggle between a like/dislike icon -->
+<i onclick="myFunction(this)" class="fa-solid fa-heart"></i>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="box">
+        <h2>Donut vases</h2>
+        <img src="bag.png" alt="donut" width="155" , height="175" />
+        <button type="button" class=" btn btn-primary plus">+</button>
+        <input type="text" value="1" disabled class="quantity" />
+        <button type="button" class="btn btn-primary minus">-</button>
+        <button type="button" class="btn btn-danger delete-btn">DELETE</button>
+        <span class="price">$190</span>
+        <i class="heart fa fa-heart-o"></i>
+      </div>
+
+
+     
+
+
+      <div class="box">
+        <h2>twin vases</h2>
+        <img src="baskets.png" alt="twin" width="155" , height="175" />
+        <button type="button" class="btn btn-primary plus">+</button>
+        <input type="text" value="1" disabled class="quantity" />
+        <button type="button" class="btn btn-primary minus">-</button>
+        <button type="button" class="btn btn-danger delete-btn">DELETE</button>
+        <span class="price">$800</span>
+        <i class="heart_fa_fa-heart-o"></i>
+      </div>
+      <div class="box">
+        <h2>elephant vases</h2>
+        <img src="socks.png" width="155" , height="175" />
+        <button type="button" class="btn btn-primary plus">+</button>
+        <input type="text" value="1" disabled  class="quantity"/><i class="heart fa fa-heart-o"></i>
+        <button type="button" class="btn btn-primary minus">-</button>
+        <button type="button" class="btn btn-danger delete-btn">DELETE</button>
+        <span class="price">$100</span>
+
+      </div>
+    </div>
+    
+    <div>
+      <div id="total-cost"><h2>total-cost:</h2></div>
+      <div id="cart-items"></div>
+    </div>
+
+    <script src="js.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  </body>
+</html>
